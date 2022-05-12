@@ -170,8 +170,10 @@ img {
 
 .section_subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--extra-big-font-size);
   margin-bottom: var(--mb-3);
+  font-family: AlbraLight;
+  font-weight: var(--font-light);
 }
 
 .section_title,
@@ -436,7 +438,7 @@ img {
 /*==================== WORK ====================*/
 
 #work {
-  /* border-bottom: 1px solid black; */
+  border-bottom: 1px solid black;
 }
 
 /* .work_container {
@@ -467,9 +469,53 @@ img {
 
   .work_data {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .work_number {
+    font-family: NeueRoman;
+  }
+
+  .work_container h3 {
+    font-size: var(--big-font-size);
+    font-family: AlbraLight;
+    font-weight: var(--font-light);
+    line-height: var(--mb-2);
+  }
+
+  .work_container p {
+    font-size: var(--smaller-font-size);
+    font-family: NeueRoman;
+    margin-top: var(--mb-0-75);
+  }
+
+  .work_arrow {
+    font-size: var(--h2-font-size);
   }
 }
 
-/*==================== SKILLS ====================*/
+.work_section_container h2 {
+  font-size: var(--extra-big-font-size);
+}
 
-/*==================== QUALIFICATION ====================*/
+.svg_nav_work {
+  width: 3rem;
+}
+
+/*==================== ABOUT ME ====================*/
+
+#about_me {
+  border-bottom: 1px solid black;
+}
+
+.about_me_icon {
+  color: black;
+}
+
+#svg_nav_work {
+  width: 5rem;
+}
+
+/*==================== CONTACT ====================*/
